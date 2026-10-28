@@ -1,0 +1,231 @@
+
+Report Summary
+
+┌──────────────────────────────────────────────────────────────────────────────────┬────────────┬─────────────────┬─────────┐
+│                                      Target                                      │    Type    │ Vulnerabilities │ Secrets │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ fest-backend:0.1 (alpine 3.22.2)                                                 │   alpine   │       27        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/Flask-2.2.2.dist-info/METADATA             │ python-pkg │        1        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/Werkzeug-2.2.2.dist-info/METADATA          │ python-pkg │        2        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/click-8.1.8.dist-info/METADATA             │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/importlib_metadata-8.7.1.dist-info/METADA- │ python-pkg │        0        │    -    │
+│ TA                                                                               │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/itsdangerous-2.2.0.dist-info/METADATA      │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/jinja2-3.1.6.dist-info/METADATA            │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/markupsafe-3.0.4.dist-info/METADATA        │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/pip-23.0.1.dist-info/METADATA              │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/psycopg2_binary-2.9.10.dist-info/METADATA  │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/setuptools-79.0.1.dist-info/METADATA       │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/setuptools/_vendor/autocommand-2.2.2.dist- │ python-pkg │        0        │    -    │
+│ -info/METADATA                                                                   │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/setuptools/_vendor/backports.tarfile-1.2.- │ python-pkg │        0        │    -    │
+│ 0.dist-info/METADATA                                                             │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/setuptools/_vendor/importlib_metadata-8.0- │ python-pkg │        0        │    -    │
+│ .0.dist-info/METADATA                                                            │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/setuptools/_vendor/inflect-7.3.1.dist-inf- │ python-pkg │        0        │    -    │
+│ o/METADATA                                                                       │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/setuptools/_vendor/jaraco.collections-5.1- │ python-pkg │        0        │    -    │
+│ .0.dist-info/METADATA                                                            │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/setuptools/_vendor/jaraco.context-5.3.0.d- │ python-pkg │        1        │    -    │
+│ ist-info/METADATA                                                                │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/setuptools/_vendor/jaraco.functools-4.0.1- │ python-pkg │        0        │    -    │
+│ .dist-info/METADATA                                                              │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dis- │ python-pkg │        0        │    -    │
+│ t-info/METADATA                                                                  │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/setuptools/_vendor/more_itertools-10.3.0.- │ python-pkg │        0        │    -    │
+│ dist-info/METADATA                                                               │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/setuptools/_vendor/packaging-24.2.dist-in- │ python-pkg │        0        │    -    │
+│ fo/METADATA                                                                      │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/setuptools/_vendor/platformdirs-4.2.2.dis- │ python-pkg │        0        │    -    │
+│ t-info/METADATA                                                                  │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/setuptools/_vendor/tomli-2.0.1.dist-info/- │ python-pkg │        0        │    -    │
+│ METADATA                                                                         │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-i- │ python-pkg │        0        │    -    │
+│ nfo/METADATA                                                                     │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/setuptools/_vendor/typing_extensions-4.12- │ python-pkg │        0        │    -    │
+│ .2.dist-info/METADATA                                                            │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info- │ python-pkg │        1        │    -    │
+│ /METADATA                                                                        │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/- │ python-pkg │        0        │    -    │
+│ METADATA                                                                         │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/wheel-0.45.1.dist-info/METADATA            │ python-pkg │        1        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.9/site-packages/zipp-3.23.1.dist-info/METADATA             │ python-pkg │        0        │    -    │
+└──────────────────────────────────────────────────────────────────────────────────┴────────────┴─────────────────┴─────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
+
+fest-backend:0.1 (alpine 3.22.2)
+================================
+Total: 27 (HIGH: 25, CRITICAL: 2)
+
+┌────────────┬────────────────┬──────────┬────────┬───────────────────┬───────────────┬──────────────────────────────────────────────────────────────┐
+│  Library   │ Vulnerability  │ Severity │ Status │ Installed Version │ Fixed Version │                            Title                             │
+├────────────┼────────────────┼──────────┼────────┼───────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libcrypto3 │ CVE-2026-31789 │ CRITICAL │ fixed  │ 3.5.4-r0          │ 3.5.6-r0      │ openssl: OpenSSL: Heap buffer overflow on 32-bit systems     │
+│            │                │          │        │                   │               │ from large X.509 certificate...                              │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-31789                   │
+│            ├────────────────┼──────────┤        │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│            │ CVE-2025-15467 │ HIGH     │        │                   │ 3.5.5-r0      │ openssl: OpenSSL: Remote code execution or Denial of Service │
+│            │                │          │        │                   │               │ via oversized Initialization...                              │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2025-15467                   │
+│            ├────────────────┤          │        │                   │               ├──────────────────────────────────────────────────────────────┤
+│            │ CVE-2025-69421 │          │        │                   │               │ openssl: OpenSSL: Denial of Service via malformed PKCS#12    │
+│            │                │          │        │                   │               │ file processing                                              │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2025-69421                   │
+│            ├────────────────┤          │        │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│            │ CVE-2026-14456 │          │        │                   │ 3.5.8-r0      │ openssl: OpenSSL: Denial of Service via unbounded memory     │
+│            │                │          │        │                   │               │ growth in QUIC server...                                     │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-14456                   │
+│            ├────────────────┤          │        │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│            │ CVE-2026-28387 │          │        │                   │ 3.5.6-r0      │ openssl: OpenSSL: Arbitrary code execution due to            │
+│            │                │          │        │                   │               │ use-after-free in DANE TLSA authentication...                │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-28387                   │
+│            ├────────────────┤          │        │                   │               ├──────────────────────────────────────────────────────────────┤
+│            │ CVE-2026-28388 │          │        │                   │               │ openssl: OpenSSL: Denial of Service due to NULL pointer      │
+│            │                │          │        │                   │               │ dereference in delta...                                      │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-28388                   │
+│            ├────────────────┤          │        │                   │               ├──────────────────────────────────────────────────────────────┤
+│            │ CVE-2026-28389 │          │        │                   │               │ openssl: OpenSSL: Denial of Service vulnerability in CMS     │
+│            │                │          │        │                   │               │ processing                                                   │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-28389                   │
+│            ├────────────────┤          │        │                   │               ├──────────────────────────────────────────────────────────────┤
+│            │ CVE-2026-28390 │          │        │                   │               │ openssl: OpenSSL: Denial of Service due to NULL pointer      │
+│            │                │          │        │                   │               │ dereference in CMS...                                        │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-28390                   │
+│            ├────────────────┤          │        │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│            │ CVE-2026-45447 │          │        │                   │ 3.5.7-r0      │ openssl: Heap Use-After-Free in OpenSSL PKCS7_verify()       │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-45447                   │
+├────────────┼────────────────┼──────────┤        │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ libssl3    │ CVE-2026-31789 │ CRITICAL │        │                   │ 3.5.6-r0      │ openssl: OpenSSL: Heap buffer overflow on 32-bit systems     │
+│            │                │          │        │                   │               │ from large X.509 certificate...                              │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-31789                   │
+│            ├────────────────┼──────────┤        │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│            │ CVE-2025-15467 │ HIGH     │        │                   │ 3.5.5-r0      │ openssl: OpenSSL: Remote code execution or Denial of Service │
+│            │                │          │        │                   │               │ via oversized Initialization...                              │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2025-15467                   │
+│            ├────────────────┤          │        │                   │               ├──────────────────────────────────────────────────────────────┤
+│            │ CVE-2025-69421 │          │        │                   │               │ openssl: OpenSSL: Denial of Service via malformed PKCS#12    │
+│            │                │          │        │                   │               │ file processing                                              │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2025-69421                   │
+│            ├────────────────┤          │        │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│            │ CVE-2026-14456 │          │        │                   │ 3.5.8-r0      │ openssl: OpenSSL: Denial of Service via unbounded memory     │
+│            │                │          │        │                   │               │ growth in QUIC server...                                     │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-14456                   │
+│            ├────────────────┤          │        │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│            │ CVE-2026-28387 │          │        │                   │ 3.5.6-r0      │ openssl: OpenSSL: Arbitrary code execution due to            │
+│            │                │          │        │                   │               │ use-after-free in DANE TLSA authentication...                │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-28387                   │
+│            ├────────────────┤          │        │                   │               ├──────────────────────────────────────────────────────────────┤
+│            │ CVE-2026-28388 │          │        │                   │               │ openssl: OpenSSL: Denial of Service due to NULL pointer      │
+│            │                │          │        │                   │               │ dereference in delta...                                      │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-28388                   │
+│            ├────────────────┤          │        │                   │               ├──────────────────────────────────────────────────────────────┤
+│            │ CVE-2026-28389 │          │        │                   │               │ openssl: OpenSSL: Denial of Service vulnerability in CMS     │
+│            │                │          │        │                   │               │ processing                                                   │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-28389                   │
+│            ├────────────────┤          │        │                   │               ├──────────────────────────────────────────────────────────────┤
+│            │ CVE-2026-28390 │          │        │                   │               │ openssl: OpenSSL: Denial of Service due to NULL pointer      │
+│            │                │          │        │                   │               │ dereference in CMS...                                        │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-28390                   │
+│            ├────────────────┤          │        │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│            │ CVE-2026-45447 │          │        │                   │ 3.5.7-r0      │ openssl: Heap Use-After-Free in OpenSSL PKCS7_verify()       │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-45447                   │
+├────────────┼────────────────┤          │        ├───────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libuuid    │ CVE-2026-53612 │          │        │ 2.41-r9           │ 2.41.6-r0     │ util-linux: util-linux: TOCTOU in the mount program when     │
+│            │                │          │        │                   │               │ applying post-mount ownership/mode changes...                │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-53612                   │
+│            ├────────────────┤          │        │                   │               ├──────────────────────────────────────────────────────────────┤
+│            │ CVE-2026-53613 │          │        │                   │               │ util-linux: util-linux: TOCTOU in the mount program via      │
+│            │                │          │        │                   │               │ ancestor directory swap on...                                │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-53613                   │
+│            ├────────────────┤          │        │                   │               ├──────────────────────────────────────────────────────────────┤
+│            │ CVE-2026-53614 │          │        │                   │               │ util-linux: util-linux: SUID mount(8) allows nosuid/noexec   │
+│            │                │          │        │                   │               │ bypass via LIBMOUNT_FORCE_MOUNT2                             │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-53614                   │
+│            ├────────────────┤          │        │                   │               ├──────────────────────────────────────────────────────────────┤
+│            │ CVE-2026-76642 │          │        │                   │               │ util-linux: util-linux: failed external mount helper still   │
+│            │                │          │        │                   │               │ runs privileged X-mount post-hooks                           │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-76642                   │
+│            ├────────────────┤          │        │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│            │ CVE-2026-78408 │          │        │                   │ 2.41.6-r1     │ util-linux: util-linux: nsenter --join-cgroup leaks root     │
+│            │                │          │        │                   │               │ cgroup migration authority                                   │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-78408                   │
+│            ├────────────────┤          │        │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│            │ CVE-2026-78410 │          │        │                   │ 2.41.6-r0     │ util-linux: util-linux: restricted bind mounts do not pin    │
+│            │                │          │        │                   │               │ the source, allowing X-mount.owner/group/mode...             │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-78410                   │
+├────────────┼────────────────┤          │        ├───────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ musl       │ CVE-2026-40200 │          │        │ 1.2.5-r10         │ 1.2.5-r12     │ musl: musl libc: Arbitrary code execution and denial of      │
+│            │                │          │        │                   │               │ service via stack-based...                                   │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-40200                   │
+├────────────┤                │          │        │                   │               │                                                              │
+│ musl-utils │                │          │        │                   │               │                                                              │
+│            │                │          │        │                   │               │                                                              │
+│            │                │          │        │                   │               │                                                              │
+├────────────┼────────────────┤          │        ├───────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ zlib       │ CVE-2026-22184 │          │        │ 1.3.1-r2          │ 1.3.2-r0      │ zlib: zlib: Arbitrary code execution via buffer overflow in  │
+│            │                │          │        │                   │               │ untgz utility                                                │
+│            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-22184                   │
+└────────────┴────────────────┴──────────┴────────┴───────────────────┴───────────────┴──────────────────────────────────────────────────────────────┘
+
+Python (python-pkg)
+===================
+Total: 6 (HIGH: 6, CRITICAL: 0)
+
+┌───────────────────────────┬────────────────┬──────────┬────────┬───────────────────┬───────────────┬──────────────────────────────────────────────────────────────┐
+│          Library          │ Vulnerability  │ Severity │ Status │ Installed Version │ Fixed Version │                            Title                             │
+├───────────────────────────┼────────────────┼──────────┼────────┼───────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ Flask (METADATA)          │ CVE-2023-30861 │ HIGH     │ fixed  │ 2.2.2             │ 2.3.2, 2.2.5  │ flask: Possible disclosure of permanent session cookie due   │
+│                           │                │          │        │                   │               │ to missing Vary: Cookie...                                   │
+│                           │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2023-30861                   │
+├───────────────────────────┼────────────────┤          │        │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ Werkzeug (METADATA)       │ CVE-2023-25577 │          │        │                   │ 2.2.3         │ python-werkzeug: high resource usage when parsing multipart  │
+│                           │                │          │        │                   │               │ form data with many fields...                                │
+│                           │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2023-25577                   │
+│                           ├────────────────┤          │        │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                           │ CVE-2024-34069 │          │        │                   │ 3.0.3         │ python-werkzeug: user may execute code on a developer's      │
+│                           │                │          │        │                   │               │ machine                                                      │
+│                           │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2024-34069                   │
+├───────────────────────────┼────────────────┤          │        ├───────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ jaraco.context (METADATA) │ CVE-2026-23949 │          │        │ 5.3.0             │ 6.1.0         │ jaraco.context: jaraco.context: Path traversal via malicious │
+│                           │                │          │        │                   │               │ tar archives                                                 │
+│                           │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-23949                   │
+├───────────────────────────┼────────────────┤          │        ├───────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ wheel (METADATA)          │ CVE-2026-24049 │          │        │ 0.45.1            │ 0.46.2        │ wheel: wheel: Privilege Escalation or Arbitrary Code         │
+│                           │                │          │        │                   │               │ Execution via malicious wheel file...                        │
+│                           │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-24049                   │
+│                           │                │          │        │                   │               │                                                              │
+│                           │                │          │        │                   │               │                                                              │
+│                           │                │          │        │                   │               │                                                              │
+│                           │                │          │        │                   │               │                                                              │
+└───────────────────────────┴────────────────┴──────────┴────────┴───────────────────┴───────────────┴──────────────────────────────────────────────────────────────┘
